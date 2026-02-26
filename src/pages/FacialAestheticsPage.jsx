@@ -9,25 +9,25 @@ const courses = [
     title: "Masters in Aesthetics Medicine", 
     link: "/courses/facial-aesthetics/medical", 
     description: "An advanced clinical program integrating medical pharmacology with the latest facial rejuvenation and injectable technologies.", 
-    image: "/images/courses/1.webp" 
+    image: "/images/courses/1.jpeg" 
   },
   { 
     title: "Masters in Facial Aesthetics", 
     link: "/courses/facial-aesthetics/masters", 
     description: "Master the art of full-face restoration, focusing on volume replacement, wrinkle relaxation, and aesthetic symmetry.", 
-    image: "/images/courses/000.webp" 
+    image: "/images/courses/2.jpeg" 
   },
   { 
     title: "Master Class In Lipolytic Injections", 
     link: "/courses/facial-aesthetics/master-lipolytic", 
     description: "Expert training in non-surgical fat dissolution techniques for submental and body contouring with clinical safety standards.", 
-    image: "/images/courses/1.webp" 
+    image: "/images/courses/3.jpeg" 
   },
   { 
     title: "Master Class in Nose correction", 
     link: "/courses/facial-aesthetics/master-nose", 
     description: "Learn high-precision liquid rhinoplasty techniques to correct dorsal humps and lift nasal tips using advanced fillers.", 
-    image: "/images/courses/2.webp" 
+    image: "/images/courses/4.jpeg" 
   },
   { 
     title: "Master Class In Acne Scar Treatment", 

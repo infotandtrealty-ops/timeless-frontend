@@ -1,5 +1,5 @@
 import React from 'react'
-import home from "../assets/4.jfif"
+import home from "../assets/44.jpeg"
 import Nav from '../components/Nav'
 import { SiViaplay } from "react-icons/si";
 import ServicesSection from "../components/ServicesSection";
