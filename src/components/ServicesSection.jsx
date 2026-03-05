@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 const services = [
   {
     id: 1,
-    title: "Courses",
+    title: "",
     image: "/services/Courses.jpg",
     link: "/websitecourses",
   },
   {
     id: 2,
-    title: "Treatments",
+    title: "",
     image: "/services/treatment.jpg",
     link: "/treatments",
   },
@@ -22,6 +22,7 @@ const ServicesSection = () => {
   return (
     <section className="py-20 bg-[#FAF8F6]">
       <div className="max-w-6xl mx-auto px-6 text-center">
+
         {/* Section Title */}
         <motion.h2
           className="text-4xl md:text-5xl font-playfair font-extrabold text-[#3B2F2F] mb-14 tracking-wide uppercase"
@@ -32,6 +33,7 @@ const ServicesSection = () => {
           Our <span className="text-[#D4AF37]">Services</span>
         </motion.h2>
 
+        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {services.map((service) => (
             <motion.div
@@ -43,13 +45,12 @@ const ServicesSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
+
               {/* Background Image */}
               <motion.img
                 src={service.image}
-                alt={service.title}
-                // Updated: Added 'object-top' to focus on the top part of the image
-                // Container height remains 'h-72' as requested
-                className="w-full h-72 object-cover object-top rounded-2xl transition-transform duration-700"
+                alt={`Timeless Aesthetics ${service.title}`}
+                className="w-full h-auto md:h-72 object-cover object-top rounded-2xl transition-transform duration-700"
                 whileHover={{ scale: 1.05 }}
                 initial={{ opacity: 0, x: -50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -73,9 +74,11 @@ const ServicesSection = () => {
               <motion.div
                 className="absolute bottom-4 left-0 w-0 h-1 bg-[#D4AF37] group-hover:w-16 transition-all duration-500 rounded"
               ></motion.div>
+
             </motion.div>
           ))}
         </div>
+
       </div>
     </section>
   );
