@@ -27,13 +27,13 @@ const courses = [
     title: "Master Class in Nose correction", 
     link: "/courses/facial-aesthetics/master-nose", 
     description: "Learn high-precision liquid rhinoplasty techniques to correct dorsal humps and lift nasal tips using advanced fillers.", 
-    image: "/images/courses/4.jpeg" 
+    image: "/images/courses/44.png" 
   },
   { 
     title: "Master Class In Acne Scar Treatment", 
     link: "/courses/facial-aesthetics/master-acne", 
     description: "Comprehensive management of post-acne scarring using a multi-modality approach including subcision and resurfacing.", 
-    image: "/images/courses/3.webp" 
+    image: "/images/courses/5.png" 
   },
   { 
     title: "Masters Class in Plasma Pen", 

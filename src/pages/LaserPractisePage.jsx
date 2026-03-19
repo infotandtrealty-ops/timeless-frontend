@@ -10,14 +10,14 @@ const courses = [
     link: "/courses/laser-practice/laser-practice-page1",
     description:
       "A comprehensive module covering laser-tissue interaction, melanin absorption, safety protocols (ANSI standards), and hands-on mastery of Diode, Nd:YAG, and IPL technologies.",
-    image: "/images/courses/111.jpg",
-  },
+      image: "/laser-practise/laser.png",
+    },
   {
     title: "HIFU (Skin Tightening)",
     link: "/courses/laser-practice/laser-practice-page2",
     description:
       "Master High-Intensity Focused Ultrasound technology for non-invasive SMAS lifting. Learn precise depth targeting for facial rejuvenation and body contouring clinical outcomes.",
-    image: "/images/courses/1.webp",
+    image: "/laser-practise/HIFU.png",
   },
 ];
 
