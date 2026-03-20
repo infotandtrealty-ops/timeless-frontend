@@ -1709,8 +1709,8 @@ image: "/images/dr.png", // replace with actual image
 
 
 <button
-  onClick={() => navigate("/contact")}
-  className="w-full bg-gradient-to-r from-[#C8A43F] to-[#B8932F] text-black font-black py-5 rounded-2xl text-sm transition-all hover:scale-[1.02] shadow-xl shadow-[#C8A43F]/10 uppercase tracking-[2px]"
+onClick={() => navigate("/contact#contact-form")}
+className="w-full bg-gradient-to-r from-[#C8A43F] to-[#B8932F] text-black font-black py-5 rounded-2xl text-sm transition-all hover:scale-[1.02] shadow-xl shadow-[#C8A43F]/10 uppercase tracking-[2px]"
 >
   Enroll Now <ArrowRight size={20} className="inline ml-2" />
 </button>

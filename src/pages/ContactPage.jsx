@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState ,useEffect  } from "react";
 import { Phone, Mail, MapPin, Clock, MessageCircle, ArrowRight } from "lucide-react";
+import { useLocation } from "react-router-dom"; // Import zaroori hai
 import Header from "../components/Nav";
 import Footer from "../components/Footer";
 import axios from "axios";
@@ -8,9 +9,35 @@ import { toast } from "react-toastify";
 
 const ContactPage = () => {
 
+  const { search, hash } = useLocation(); // Yeh line missing thi
+
   const [formData, setFormData] = useState({
     firstName: "", lastName: "", email: "", phone: "", service: "", message: "",
   });
+
+
+  useEffect(() => {
+    // URL se service nikalne ke liye (e.g., ?service=pmu)
+    const params = new URLSearchParams(search);
+    const serviceParam = params.get("service");
+
+    if (serviceParam) {
+      setFormData((prev) => ({ ...prev, service: serviceParam }));
+    }
+
+    // Hash scroll handle karne ke liye (#contact-form)
+    if (hash) {
+      const element = document.getElementById(hash.replace("#", ""));
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 100); // Thoda delay taaki page load ho jaye
+      }
+    }
+  }, [search, hash]);
+
+
+
 
   const [submitting, setSubmitting] = useState(false);
   const [otp, setOtp] = useState("");
