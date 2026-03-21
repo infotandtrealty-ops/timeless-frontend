@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { IoMdPerson } from 'react-icons/io';
 import { GiHamburgerMenu, GiSplitCross } from 'react-icons/gi';
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/io'; 
-
+import { IoCall } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 import { serverUrl } from "../App";
 import axios from 'axios';
@@ -419,7 +419,14 @@ function Nav() {
                         
                         {/* Desktop actions (Hidden on mobile) */}
                         <div className='hidden lg:flex items-center space-x-3'> 
-                            {userData?.role === "educator" && (
+                            {/* Call Button */}
+                            <a
+  href="tel:+919654009966"
+  title="Call Now"  
+  className="w-10 h-10 flex items-center justify-center bg-black text-white border border-white rounded-full hover:bg-white hover:text-black transition-all duration-200"
+>
+  <IoCall className="w-5 h-5" />
+</a>                       {userData?.role === "educator" && (
                                 <span 
                                     className='px-4 py-2 border border-white text-white rounded-lg text-sm font-medium cursor-pointer transition duration-200 hover:bg-white hover:text-black' 
                                     onClick={() => navigate("/dashboard")}

@@ -24,6 +24,7 @@ const ContactPage = () => {
     if (serviceParam) {
       setFormData((prev) => ({ ...prev, service: serviceParam }));
     }
+    
 
     // Hash scroll handle karne ke liye (#contact-form)
     if (hash) {
