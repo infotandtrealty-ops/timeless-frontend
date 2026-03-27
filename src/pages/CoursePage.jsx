@@ -456,7 +456,7 @@ courseDetailImage: "/courses2/PG Diploma in PMU.png",
     category: "Lash & Brow Artistry",
     price: "₹25,000", 
     image: "/images/goo.jpg",
-    courseDetailImage: "/PermanentMakeup/Lash_Lift_&_Brow_Lamination.png", // Added here
+    courseDetailImage: "/courses2/permanent makeup/Certificate Course in lash lift & tint Brow lamination and tint.png", // Added here
     features: [
         "Mastering Lash Lift & Tint",
         "Brow Lamination & Tinting expertise",
@@ -547,13 +547,6 @@ courseDetailImage: "/courses2/PG Diploma in PMU.png",
     videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ"
 },
 
-
-
-
-
-
-
-
 // Cosmetology Courses
 "cosmetology/master-chemical-peels": {
   title: "Certificate in Professional Cosmetology",
@@ -638,6 +631,7 @@ courseDetailImage: "/courses2/PG Diploma in PMU.png",
     category: "Cosmetology",
     price: "₹1,20,000",
     image: "/images/goo.jpg",
+    courseDetailImage: "/courses2/cosmotolgy/2.png",
 
     features: [
         "In-depth cosmetology training",
@@ -1062,11 +1056,8 @@ image: "/images/dr.png", // replace with actual image
   level: "Advanced",
   category: "Facial Aesthetics",
   price: "₹45,000",
-
   image: "/images/goo.jpg",
-
-  // Optional right-side poster image
-  courseDetailImage: "/courses2/master-nose-correction.png",
+  courseDetailImage: "/courses2/non-surgical.jpeg",
 
   features: [
     "Non-surgical nose correction",
@@ -1113,6 +1104,7 @@ image: "/images/dr.png", // replace with actual image
             title: "Master Class In Acne Scar Treatment",
             description: "Advanced training in acne scar treatment using various techniques including lasers, microneedling, and chemical peels for optimal scar reduction.",
             duration: "3 Days",
+            courseDetailImage: "/courses2/acne-scar.jpeg",
             level: "Advanced",
             category: "Facial Aesthetics",
             price: "₹50,000",
@@ -1156,6 +1148,7 @@ image: "/images/dr.png", // replace with actual image
             category: "Facial Aesthetics",
             price: "₹40,000",
             image: "/images/goo.jpg",
+            courseDetailImage: "/courses2/plasma-pen.jpeg",
             features: [
               "Plasma pen technology training",
               "Advanced treatment techniques",
@@ -1195,6 +1188,7 @@ image: "/images/dr.png", // replace with actual image
             category: "Facial Aesthetics",
             price: "₹45,000",
             image: "/images/goo.jpg",
+            courseDetailImage: "/courses2/under-eye.jpeg",
             features: [
               "Under-eye anatomy and aging",
               "Advanced treatment techniques",
@@ -1234,6 +1228,7 @@ image: "/images/dr.png", // replace with actual image
             category: "Facial Aesthetics",
             price: "₹40,000",
             image: "/images/goo.jpg",
+            courseDetailImage: "/courses2/lips.jpeg",
             features: [
               "Advanced lip filler techniques",
               "Anatomy and safety protocols",
@@ -1313,6 +1308,7 @@ image: "/images/dr.png", // replace with actual image
             category: "Facial Aesthetics",
             price: "₹45,000",
             image: "/images/goo.jpg",
+            courseDetailImage: "/courses2/lipo.jpeg",
             features: [
               "Basic lipolytic techniques",
               "Anatomy and safety",
