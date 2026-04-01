@@ -39,31 +39,31 @@ const courses = [
     title: "Masters Class in Plasma Pen", 
     link: "/courses/facial-aesthetics/master-plasma", 
     description: "Specialized training in fibroblast plasma technology for non-invasive skin tightening and eyelid rejuvenation.", 
-    image: "/images/courses/222.jpg" 
+    image: "/images/courses/Plasma pen.jpeg" 
   },
   { 
     title: "Master class in Under eye rejuvenation", 
     link: "/courses/facial-aesthetics/master-undereye", 
     description: "Address dark circles, tear troughs, and periorbital aging with advanced injectable and skin quality protocols.", 
-    image: "/images/courses/1.webp" 
+    image: "/images/courses/Masterclass in undereye rejuvenation.jpeg" 
   },
   { 
     title: "Master class in Lip Fillers", 
     link: "/courses/facial-aesthetics/master-fillers", 
     description: "Focus on the 'Golden Ratio' and advanced injection mapping to achieve natural volume and defined lip contours.", 
-    image: "/images/courses/2.webp" 
+    image: "/images/courses/Masterclass in lip fillers.jpeg" 
   },
   { 
     title: "PG Diploma in Facial Aesthetics", 
     link: "/courses/facial-aesthetics/pg-diploma", 
     description: "A deep-dive diploma program covering the complete spectrum of non-surgical facial aesthetic medicine.", 
-    image: "/images/courses/3.webp" 
+    image: "/images/courses/Fellowship in Facial aesthetics.jpeg" 
   },
   { 
     title: "Certificate Course in Lipolytic Injections", 
     link: "/courses/facial-aesthetics/cert-lipolytic", 
     description: "Foundational certification for medical practitioners entering the field of non-surgical fat reduction therapy.", 
-    image: "/images/courses/222.jpg" 
+    image: "/images/courses/Lipolytic injection.jpeg" 
   },
 ];
 
