@@ -107,7 +107,7 @@ const ShopPage = () => {
 
   // WhatsApp Handler
   const handleWhatsAppOrder = (productName, productPrice) => {
-    const phoneNumber = "918750027070"; 
+    const phoneNumber = "919654009966"; 
     const message = `Hello, I am interested in purchasing: *${productName}* (${productPrice}). Please guide me through the process.`;
     window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, '_blank');
   };

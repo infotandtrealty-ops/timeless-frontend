@@ -33,7 +33,7 @@ const ClinicsPage = () => {
       id: 'amritsar',
       name: 'Timeless Aesthetics - Amritsar',
       address: '123 Beauty Street, Amritsar, Punjab 143001',
-      phone: '+91 8750027070',
+      phone: '+91 9654009966',
       email: 'amritsar@timelessaesthetics.in',
       hours: [
         'Monday - Saturday: 9:00 AM - 7:00 PM',

@@ -213,7 +213,7 @@ const ContactPage = () => {
               <Phone className="text-yellow-600"/>
               <div>
                 <p className="font-semibold">Phone</p>
-                <p className="text-gray-600">+91 8750027070</p>
+                <p className="text-gray-600">+91 9654009966</p>
               </div>
             </div>
 
@@ -364,7 +364,7 @@ const ContactPage = () => {
       {/* WHATSAPP BUTTON */}
 
       <a
-        href="https://wa.me/918750027070"
+        href="https://wa.me/919654009966"
         className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition"
       >
         <MessageCircle/>

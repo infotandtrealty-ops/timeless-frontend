@@ -56,7 +56,7 @@ const Footer = () => {
             Timeless Aesthetics <br />
             2nd Floor, Ameya One, Golf Course Road, Sector 42, Gurgaon, Haryana 122022
           </p>
-          <p className="mt-2 text-sm text-gray-300">📞 (+91) 8750027070</p>
+          <p className="mt-2 text-sm text-gray-300">📞 (+91) 9654009966</p>
           <p className="text-sm text-gray-300">✉️ info@timelessaesthetics.in</p>
 
           {/* Social Icons */}
